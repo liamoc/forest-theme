@@ -153,7 +153,13 @@
       </a>
     </li>
   </xsl:template>
-
+  <xsl:template match="f:meta[@name='download']">
+    <li class="meta-item">
+      <a class="link external" href="{.}">
+        <xsl:text>Download</xsl:text>
+      </a>
+    </li>
+  </xsl:template>
   <xsl:template match="f:meta[@name='video']">
     <li class="meta-item">
       <a class="link external" href="{.}">

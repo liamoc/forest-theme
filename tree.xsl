@@ -243,6 +243,7 @@
           <xsl:apply-templates select="f:meta[@name='doi']" />
           <xsl:apply-templates select="f:meta[@name='orcid']" />
           <xsl:apply-templates select="f:meta[@name='external']" />
+          <xsl:apply-templates select="f:meta[@name='download']" />
           <xsl:apply-templates select="f:meta[@name='slides']" />
           <xsl:apply-templates select="f:meta[@name='video']" />
         </ul>
