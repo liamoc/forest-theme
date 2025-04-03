@@ -682,7 +682,18 @@ ol li ol li ol {
 .block[data-taxon="Construction"] {
     background-color: rgba(0, 100, 255, 0.04);
 }
-
+.block[data-taxon="Theorem"]:hover {
+    background-color: rgba(100, 100, 255, 0.16);
+}
+.block[data-taxon="Theorem"] {
+    background-color: rgba(100, 100, 255, 0.08);
+}
+.block[data-taxon="Proof"]:hover {
+    background-color: rgba(255, 255, 255, 0.32);
+}
+.block[data-taxon="Proof"] {
+    background-color: rgba(255, 255, 255, 0.64);
+}
 .block[data-taxon="Exercise"]:hover {
     background-color: rgba(255, 215, 45, 0.19);
 }
