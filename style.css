@@ -638,6 +638,13 @@ ol li ol li ol {
     margin-left: 20px;
     margin-bottom: 5px;
 }
+.sidefigure {
+    float: right;
+    text-align: center;
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
 .block[data-taxon="Example"]:hover {
     background-color: rgba(133, 217, 102, 0.19);
 }
