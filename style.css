@@ -645,6 +645,10 @@ ol li ol li ol {
     margin-left: 20px;
     margin-bottom: 5px;
 }
+.constrainfigure {
+    text-align: center;
+    width: 65%;
+}
 .block[data-taxon="Example"]:hover {
     background-color: rgba(133, 217, 102, 0.19);
 }
@@ -655,6 +659,12 @@ ol li ol li ol {
     background-color: rgba(255, 100, 0, 0.16);
 }
 .block[data-taxon="Warning"] {
+    background-color: rgba(255, 100, 0, 0.08);
+}
+.block[data-taxon="Counterexample"]:hover {
+    background-color: rgba(255, 100, 0, 0.16);
+}
+.block[data-taxon="Counterexample"] {
     background-color: rgba(255, 100, 0, 0.08);
 }
 .block[data-taxon="Problem"]:hover {
