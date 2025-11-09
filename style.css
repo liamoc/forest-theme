@@ -123,7 +123,16 @@ pre {
     white-space: -o-pre-wrap;
     word-wrap: break-word;
 }
-
+.shiki > code {
+  background-color: transparent;
+  padding:0;
+}
+shiki-block {
+  display: block;
+  unicode-bidi: embed;
+  font-family: monospace;
+  white-space: pre;
+}
 code {
     border-radius: var(--radius);
     background-color: rgba(0, 100, 100, 0.04);
