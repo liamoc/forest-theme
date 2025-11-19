@@ -54,6 +54,7 @@
         </div>
         <script type="text/javascript" src="{/f:tree/@base-url}/exsurge.min.js"></script>
         <script type="module" src="{/f:tree/@base-url}/shikiblock.js"></script>
+        <script type="module" src="{/f:tree/@base-url}/tsvtable.js"></script>
         <script type="text/javascript" src="{/f:tree/@base-url}/gabc.js">
         </script>
       </body>
